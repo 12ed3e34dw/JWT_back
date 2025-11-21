@@ -4,7 +4,7 @@
   "description": "Nest.js backend с JWT авторизацией",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node dist/main.js",
+    "start": "node dist/main.js ",
     "start:dev": "nest start --watch",
     "build": "nest build",
     "lint": "eslint '{src,apps,libs,test}/**/*.ts' --fix",

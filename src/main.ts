@@ -6,8 +6,9 @@ config(); // подключаем .env
 
 async function bootstrap() {
     const app = await NestFactory.create(AppModule);
+
     app.enableCors({
-        origin: 'http://localhost:3003', // адрес фронта
+        origin: 'http://localhost:3005', // адрес фронта
         credentials: true,
     });
 
